@@ -123,5 +123,8 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://hr-analytical-frontend-ebm5agreg.vercel.app"
+    "https://hr-analytics-backend-1.onrender.com",
+    "https://hr-analytical-frontend-ebm5agreg.vercel.app",
 ]
+CORS_ALLOW_ALL_ORIGINS = True
+
