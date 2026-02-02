@@ -122,6 +122,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+ALLOWED_HOSTS = ["*"]
+
+
 CSRF_TRUSTED_ORIGINS = [
     "https://hr-analytics-backend-1.onrender.com",
     "https://hr-analytical-frontend-ebm5agreg.vercel.app",
